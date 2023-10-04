@@ -32,7 +32,7 @@ export default {
     title: 'Moshiyoulan',
     subtitle: 'Share',
     description: 'Nolan\'s blog',
-    keywords: 'Luwang, blog, wallleap',
+    keywords: 'Moshiyoulan, blog, nolan',
     favicon: '/favicon.ico',
     favicon16: '/favicon.ico',
     favicon32: '/favicon.ico',
