@@ -28,52 +28,53 @@
  * @property {String} defaultCover  文章默认封面图
  */
 export default {
-  // 博客基础配置
-  title: 'wallleap',
-  subtitle: 'ルー・ワン',
-  description: 'Luwang\'s blog',
-  keywords: 'Luwang, blog, wallleap',
-  favicon: '/favicon.ico',
-  favicon16: '/favicon.ico',
-  favicon32: '/favicon.ico',
-  createdTime: '2019-08-01',
-  icp: '赣ICP备20000895号-1',
-  icpLink: '//beian.miit.gov.cn/',
-  beian: '',
-  beianLink: '',
-  // 关于页二维码
-  alipay_qr: '//cdn.wallleap.cn/img/custom/donate/alipayQr.jpg',
-  // GitHub Issues 配置
-  username: 'wallleap',
-  repository: 'myblogs',
-  friendsRepo: 'friends',
-  // 您的信息
-  author: 'Luwang',
-  email: 'luwang@oicode.cn',
-  link: '//luwang.info',
-  github: '//github.com/wallleap',
-  // 友链信息
-  name: 'wallleap',
-  url: '//myblog.wallleap.cn',
-  avatar: '//gravatar.wallleap.cn/avatar/be1ccdcf025a92b98a92e331e1b3662a?size=256',
-  desc: 'Luwang\'s blog',
-  // 文章相关
-  pageSize: 12,
-  defaultCover: '//cdn.wallleap.cn/img/post/1.jpg',
-  // 图片加载失败时显示，请将图片下载至你自己的存储空间，并使用自己的 CDN 引入
-  errorImg: '//cdn.wallleap.cn/img/pic/cover/image_processing20200524-7638-6itpxj.gif',
-  // 评论配置
-  utterances: {
-    code: `<script src="https://utteranc.es/client.js"
-      repo="wallleap/comments"
-      issue-term="title"
-      label="Comment"
-      theme="github-light"
-      crossorigin="anonymous"
-      async>
-    </script>`,
-  },
-  twikoo: {
-    src: '//cdn.staticfile.org/twikoo/1.6.7/twikoo.all.min.js',
-  },
+    // 博客基础配置
+    title: 'Moshiyoulan',
+    subtitle: 'Share',
+    description: 'Nolan\'s blog',
+    keywords: 'Luwang, blog, wallleap',
+    favicon: '/favicon.ico',
+    favicon16: '/favicon.ico',
+    favicon32: '/favicon.ico',
+    createdTime: '2019-08-01',
+    icp: '  ',
+    icpLink: '//beian.miit.gov.cn/',
+    beian: '',
+    beianLink: '',
+    // 关于页二维码
+    alipay_qr: '//cdn.wallleap.cn/img/custom/donate/alipayQr.jpg',
+    // GitHub Issues 配置
+    username: 'Moshiyou',
+    repository: 'MyblogStorehouse',
+    //友情链接github仓库
+    friendsRepo: 'friends',
+    // 您的信息
+    author: 'Moshiyou',
+    email: 'moshiyoulan@163.com',
+    link: '//github.com/Moshiyou',
+    github: '//github.com/Moshiyou',
+    // 友链信息
+    name: 'Moshiyou',
+    url: '//moshiyoulan.com',
+    avatar: '//gravatar.wallleap.cn/avatar/be1ccdcf025a92b98a92e331e1b3662a?size=256',
+    desc: 'Moshiyou\'s blog',
+    // 文章相关
+    pageSize: 12,
+    defaultCover: '//cdn.wallleap.cn/img/post/1.jpg',
+    // 图片加载失败时显示，请将图片下载至你自己的存储空间，并使用自己的 CDN 引入
+    errorImg: '//cdn.wallleap.cn/img/pic/cover/image_processing20200524-7638-6itpxj.gif',
+    // 评论配置
+    utterances: {
+        code: `<script src="https://utteranc.es/client.js"
+            repo="Moshiyou/MyblogComments"
+            issue-term="title"
+            label="💬"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+        </script>`,
+    },
+    twikoo: {
+        src: '//cdn.staticfile.org/twikoo/1.6.7/twikoo.all.min.js',
+    },
 }
